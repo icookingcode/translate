@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 
+import 'drawer_page.dart';
+import 'home_body.dart';
+
 class IndexPage extends StatefulWidget {
   @override
   _IndexPageState createState() => _IndexPageState();
@@ -11,8 +14,10 @@ class _IndexPageState extends State<IndexPage> {
     return Scaffold(
       appBar: AppBar(
         title: Text('Translate'),
+        elevation: 0.0,
       ),
-      body: Text('this is page'),
+      body: HomeBody(),
+      drawer: DrawerPage(),
     );
   }
 }
