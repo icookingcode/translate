@@ -46,6 +46,12 @@ flutter:
     - images/bg_account_switcher.png
     - images/spinner_blue.9.png
     - images/ic_swap.png
+    - images/ic_double_mic_24dp.png
+    - images/quantum_ic_camera_enhance_black_24.png
+    - images/quantum_ic_ink_pen_black_24.png
+    - images/quantum_ic_keyboard_voice_black_24.png
+    - images/ic_star_active.png
+    - images/ic_star_inactive.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
